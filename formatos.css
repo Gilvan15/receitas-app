@@ -1,0 +1,62 @@
+/* Definir uma classe para a logotipo com largura e altura de 50 pixels */
+.logotipo {
+    width: 21%;
+    height: 21%;
+    display: block;
+    margin: 0 auto; /* Centraliza a logotipo horizontalmente */
+}
+
+/* Definir a formatação das áreas semânticas */
+nav {
+    background-color: #333; /* Cor de fundo do menu */
+    padding: 10px; /* Espaçamento interno */
+    color: #fff; /* Cor do texto */
+}
+
+main {
+    margin: 20px; /* Margem externa */
+    padding: 10px; /* Espaçamento interno */
+ 
+}
+.main{
+    text-align: center;
+}
+
+footer {
+    background-color: #333; /* Cor de fundo do rodapé */
+    padding: 10px; /* Espaçamento interno */
+    color: #fff; /* Cor do texto */
+}
+
+/* Definir características tipográficas globais */
+body {
+    font-family: Arial, sans-serif; /* Fonte padrão para o corpo do texto */
+    font-size: 16px; /* Tamanho da fonte padrão */
+    line-height: 1.5; /* Espaçamento entre linhas */
+}
+
+/* Explorar as possibilidades da visualização no modo flex */
+nav ul {
+    display: flex; /* Layout flexível */
+    list-style-type: none; /* Remover marcadores da lista */
+}
+
+nav li a {
+    margin-right: 20px; /* Espaçamento entre itens do menu */
+    color: #fff; /* Cor do texto */
+}
+
+/* Posicionar adequadamente as áreas semânticas */
+nav, main, footer {
+    margin: 10px; /* Margem externa entre as áreas semânticas */
+}
+
+.row {
+    display: flex;
+}
+
+/* Estilos para as colunas */
+.column {
+    flex: 1; /* As colunas ocupam espaços iguais na linha */
+    padding: 10px;
+}

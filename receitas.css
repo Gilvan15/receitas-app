@@ -1,0 +1,43 @@
+/* Área para agrupar os painéis das receitas no modo flex */
+#painel-receitas {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+/* Formatação dos painéis de receitas */
+.receita {
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px; /* Dimensões fixas para os painéis */
+    background-color: #f9f9f9;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Formatação para o nome da receita */
+.receita h2 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+/* Formatação para a foto do prato */
+.receita img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Formatação para a lista de itens */
+.receita ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* Formatação para o modo de preparo */
+.receita p {
+    margin: 10px 0;
+    font-size: 12px;
+}
+
