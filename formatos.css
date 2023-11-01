@@ -6,16 +6,11 @@
     margin: 0 auto; /* Centraliza a logotipo horizontalmente */
 }
 
-/* Definir a formatação das áreas semânticas */
-nav {
-    background-color: #333; /* Cor de fundo do menu */
-    padding: 10px; /* Espaçamento interno */
-    color: #fff; /* Cor do texto */
-}
 
 main {
     margin: 20px; /* Margem externa */
     padding: 10px; /* Espaçamento interno */
+    color: black;
  
 }
 .main{
@@ -23,40 +18,36 @@ main {
 }
 
 footer {
-    background-color: #333; /* Cor de fundo do rodapé */
+    background-color: black; /* Cor de fundo do rodapé */
     padding: 10px; /* Espaçamento interno */
     color: #fff; /* Cor do texto */
+    text-align: center; /* texto centralizado */
+
 }
 
 /* Definir características tipográficas globais */
 body {
+    background-image: url('img/fundoComida1.jpg');
+    background-size: 100%;
     font-family: Arial, sans-serif; /* Fonte padrão para o corpo do texto */
     font-size: 16px; /* Tamanho da fonte padrão */
     line-height: 1.5; /* Espaçamento entre linhas */
 }
 
-/* Explorar as possibilidades da visualização no modo flex */
-nav ul {
-    display: flex; /* Layout flexível */
-    list-style-type: none; /* Remover marcadores da lista */
+@media (max-width: 768px) {
+    .cards {
+      flex-direction: column;
+    }
+    .fontbold{
+        color: black !important;
+    }
+  }
+
+span.fontbold {
+    color: white;
 }
 
-nav li a {
-    margin-right: 20px; /* Espaçamento entre itens do menu */
-    color: #fff; /* Cor do texto */
-}
-
-/* Posicionar adequadamente as áreas semânticas */
-nav, main, footer {
-    margin: 10px; /* Margem externa entre as áreas semânticas */
-}
-
-.row {
-    display: flex;
-}
-
-/* Estilos para as colunas */
-.column {
-    flex: 1; /* As colunas ocupam espaços iguais na linha */
-    padding: 10px;
+body.cadastro {
+    background-image: url('img/fundoComida3.jpg') ;
+    background-size: 100%;
 }
