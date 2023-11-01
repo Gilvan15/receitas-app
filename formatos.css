@@ -1,22 +1,3 @@
-/* Definir uma classe para a logotipo com largura e altura de 21% com responsividade */
-.logotipo {
-    width: 21%;
-    height: 21%;
-    display: block;
-    margin: 0 auto; /* Centraliza a logotipo horizontalmente */
-}
-
-
-main {
-    margin: 20px; /* Margem externa */
-    padding: 10px; /* Espaçamento interno */
-    color: black;
- 
-}
-.main{
-    text-align: center;
-}
-
 footer {
     background-color: black; /* Cor de fundo do rodapé */
     padding: 10px; /* Espaçamento interno */
@@ -25,14 +6,6 @@ footer {
 
 }
 
-/* Definir características tipográficas globais */
-body {
-    background-image: url('img/fundoComida1.jpg');
-    background-size: 100%;
-    font-family: Arial, sans-serif; /* Fonte padrão para o corpo do texto */
-    font-size: 16px; /* Tamanho da fonte padrão */
-    line-height: 1.5; /* Espaçamento entre linhas */
-}
 
 @media (max-width: 768px) {
     .cards {
