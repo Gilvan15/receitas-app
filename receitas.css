@@ -27,12 +27,13 @@
   padding: 10px;
 }
 
-footer {
-  background-color: black; /* Cor de fundo do rodapé */
-  padding: 10px; /* Espaçamento interno */
-  color: #fff; /* Cor do texto */
-  text-align: center; /* texto centralizado */
-
+footer{
+  background-color: black;
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+  text-align: center;
+  color: whitesmoke;
 }
 
 .classFooter{
@@ -46,12 +47,10 @@ footer {
   left: 0;
   }
 
-
-
-
 body{
   background-image: url('img/fundoComida2.jpg') ;
   background-size: 100%;
+  
 }
 
 .imgfund {

@@ -1,11 +1,11 @@
-footer {
-    background-color: black; /* Cor de fundo do rodapé */
-    padding: 10px; /* Espaçamento interno */
-    color: #fff; /* Cor do texto */
-    text-align: center; /* texto centralizado */
-
+footer{
+    background-color: black;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    color: whitesmoke;
 }
-
 
 @media (max-width: 768px) {
     .cards {
